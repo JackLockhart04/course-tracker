@@ -1,0 +1,5 @@
+# Node.js dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/.next/

@@ -1,0 +1,1 @@
+from .view import courses_bp

@@ -1,0 +1,20 @@
+{
+  "Jack": [
+    {
+      "CS 200": {
+        "courseID": 1,
+        "name": "CS 200",
+        "grade": 91,
+        "credits": 3
+      }
+    },
+    {
+      "CS 201": {
+        "courseID": 2,
+        "name": "CS 201",
+        "grade": 85,
+        "credits": 3
+      }
+    }
+  ]
+}

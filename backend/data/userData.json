@@ -1,0 +1,10 @@
+{
+  "nextID": 2,
+  "userData": {
+    "Jack": {
+      "username": "Jack",
+      "accountID": 1,
+      "password": "123"
+    }
+  }
+}

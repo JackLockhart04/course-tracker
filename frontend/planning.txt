@@ -1,0 +1,19 @@
+User data:
+    username
+    password (hashed)
+    userId
+    courses
+    gpa scale
+    settings
+
+Course data:
+    name
+    id
+    grade
+    assignment grades
+    gpa based on user gpa scale
+    course ABC scale
+    make it prettier (color...?)
+
+Other:
+    Session key?
