@@ -1,0 +1,15 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: linear-gradient(
+    to bottom,
+    gray,
+    white
+  ); /* Gradient from gray to white */
+}
+
+.spacingDiv {
+  flex-grow: 1;
+}

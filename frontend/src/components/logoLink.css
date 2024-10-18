@@ -1,0 +1,13 @@
+.logoLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+}
+
+.logoImage {
+  width: auto; /* Maintain aspect ratio */
+  height: 100%; /* Set height to 75% of the parent */
+  display: block; /* Ensure the image is treated as a block element */
+}
