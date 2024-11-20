@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/course-tracker/static/css/main.4e21482b.css",
+    "main.js": "/course-tracker/static/js/main.0414930a.js",
+    "static/js/453.8ab44547.chunk.js": "/course-tracker/static/js/453.8ab44547.chunk.js",
+    "index.html": "/course-tracker/index.html",
+    "main.4e21482b.css.map": "/course-tracker/static/css/main.4e21482b.css.map",
+    "main.0414930a.js.map": "/course-tracker/static/js/main.0414930a.js.map",
+    "453.8ab44547.chunk.js.map": "/course-tracker/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e21482b.css",
+    "static/js/main.0414930a.js"
+  ]
+}
