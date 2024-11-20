@@ -1,0 +1,70 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+#aboutMeContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 100%;
+  height: 800px;
+  max-width: 1200px;
+  gap: 80px;
+}
+
+.aboutMeText {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.6; /* Increase line spacing */
+}
+
+#headshotSection {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.myPic {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 50%; /* Make the image a circle */
+}
+
+.homeProjectsSection {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.homeProjectsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seeAllProjectsLink {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.seeAllProjectsLink:hover {
+  text-decoration: underline;
+}
+
+.homeProjectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
