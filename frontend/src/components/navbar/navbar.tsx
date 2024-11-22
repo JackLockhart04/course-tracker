@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
         </Link>
       </div>
       <div className="navRight">
-        <Link to="/projects" className="navLink">
-          Projects
+        <Link to="/dashboard" className="navLink">
+          Dashboard
         </Link>
       </div>
     </nav>

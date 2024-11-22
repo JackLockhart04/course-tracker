@@ -1,5 +1,6 @@
 #include <iostream>
 #include "course.h"
+#include "routes/mainRoutes.h"
 
 int main() {
     std::cout << "Hello, CMake!" << std::endl;
@@ -9,5 +10,15 @@ int main() {
     myCourse.print();
     double maxGrade = myCourse.getMaxGrade();
     std::cout << "Max Grade: " << maxGrade << std::endl;
+
+    // Learn crow
+    crow::SimpleApp app;  // Define the Crow application
+
+    MainRoutes mainRoutes;  // Define the main routes
+    mainRoutes.addRoutes(app);  // Add the routes to the app
+
+    // Start the server on port 18080
+    app.port(18080).multithreaded().run();
+
     return 0;
 }

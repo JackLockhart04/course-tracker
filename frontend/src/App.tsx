@@ -6,6 +6,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import Home from "./pages/home/home";
+import Dashboard from "./pages/dashboard/dashboard";
 
 const App: React.FC = () => {
   return (
@@ -15,11 +16,7 @@ const App: React.FC = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/projects" element={<Projects />} />
-          <Route
-            path="/projects/stocksinseconds"
-            element={<StocksInSeconds />}
-          /> */}
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>
