@@ -38,8 +38,13 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(asio)
 # Manually set ASIO_INCLUDE_DIR after FetchContent
 set(ASIO_INCLUDE_DIR ${asio_SOURCE_DIR}/asio)
-# Link Winsock for asio
-target_link_libraries(CourseTracker PRIVATE ws2_32 mswsock)
+# Determine the platform
+if (WIN32)
+  # Link against Winsock on Windows
+  target_link_libraries(CourseTracker PRIVATE ws2_32 mswsock)
+elseif (UNIX)
+  # No special linking needed for Linux (POSIX)
+endif()
 
 
 # Add Crow
@@ -70,3 +75,5 @@ enable_testing()
 # Link GoogleTest to the test executable
 target_link_libraries(MyProjectTest PRIVATE gtest_main)
 
+find_package(Threads REQUIRED)
+target_link_libraries(CourseTracker PRIVATE Threads::Threads)

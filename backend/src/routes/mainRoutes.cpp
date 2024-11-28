@@ -5,8 +5,7 @@
 // Public
 
 MainRoutes::MainRoutes() {
-    // Set up routes
-    std::cout << "Setting up routes..." << std::endl;
+    // Constructor
 }
 
 void MainRoutes::addRoutes(crow::SimpleApp& app){
@@ -19,4 +18,7 @@ void MainRoutes::addRoutes(crow::SimpleApp& app){
     CROW_ROUTE(app, "/hello/<string>")([](const std::string& name){
         return "Hello, " + name + "!";
     });
+
+    // Cout
+    std::cout << "---Base routes setup---" << std::endl;
 }

@@ -8,6 +8,9 @@
     "cmake.buildDirectory": "${workspaceFolder}/backend/build",
     "files.associations": {
       "iostream": "cpp"
+    },
+    "[markdown]": {
+      "editor.formatOnSave": false
     }
   }
 }

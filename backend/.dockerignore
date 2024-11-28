@@ -1,7 +1,7 @@
 build
 .git
+.gitignore
 .vscode
-.idea
 *.o
 *.obj
 *.exe
