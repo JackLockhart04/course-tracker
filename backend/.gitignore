@@ -33,4 +33,3 @@ Makefile
 
 # Ignore IDE specific files
 .vscode/
-*.code-workspace
