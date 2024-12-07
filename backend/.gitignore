@@ -2,4 +2,4 @@
 .vscode/
 
 # Ignore virtual environment
-.venv/
+venv/
