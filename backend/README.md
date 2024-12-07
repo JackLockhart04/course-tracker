@@ -1,20 +1,22 @@
-### Build with CMake
-1. F7
-or
-1. From dir /build
-2. run "cmake.."
+### Activating the virtual environment
 
-### Run CMake Build
-1. From dir /build
-2. run ./CourseTracker
+Windows: run ".\venv\Scripts\activate"
+Unix shell (Git bash): run "source venv/Scripts/activate"
 
-### Build container image
-1. From backend root dir
-2. run "docker build -t course-tracker-backend ."
+### Disable the virtual environment
 
-### Run container
-1. run "docker run <tags> course-tracker-backend"
-2. Optional tags
-    a. "--name <container-name>" (Name the container)
-    b. "-p <port-number>:<port-number>" (Set exposed port, I used 18080)
-3. Dont include the "<" and ">" characters
+run "deactivate"
+
+### Run the app
+
+1. Virtual environment must be active
+2. run "python localRun.py"
+Runs on localhost port 5000 (http://127.0.0.1:5000)
+
+### Run tests
+
+1. Virtual environment must be active
+2. run "python -m unittest discover tests"
+
+### Pip'ed requirements
+    1. Flask

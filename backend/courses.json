@@ -1,0 +1,24 @@
+{
+  "00001": {
+    "name": "CS100",
+    "cedits": 3,
+    "intructor": "Dr. Smith",
+    "assignments": {
+      "000001": {
+        "name": "Assignment 1",
+        "due": "2022-10-01",
+        "grade": 100
+      },
+      "000002": {
+        "name": "Assignment 2",
+        "due": "2022-10-08",
+        "grade": 100
+      },
+      "000003": {
+        "name": "Assignment 3",
+        "due": "2022-10-15",
+        "grade": 100
+      }
+    }
+  }
+}
